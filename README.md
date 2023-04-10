@@ -1,6 +1,6 @@
 # Appsynth Frontend Assignment 
-## Confidential Please don't disclose this assignment to anyone.
-## Updated on April 6, 2023.
+\* **Confidential Please don't disclose this assignment to anyone.**
+\*\* Updated on April 6, 2023
 
 We plan to launch a CRUD system for use in our back office, so we need your help to create the system from Next.js with React.js and Typescript, and the structure is flexible, easy to understand, and easy to be supported by your team members.
 
