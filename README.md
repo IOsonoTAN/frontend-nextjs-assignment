@@ -1,5 +1,6 @@
 # Appsynth Frontend Assignment 
 \* **Confidential Please don't disclose this assignment to anyone.**
+
 \* Deadline on April 6, 2023
 
 ## Story and Goals
@@ -7,12 +8,12 @@ We plan to launch a CRUD system for use in our back office, so we need your help
 
 ## Your task
 Here are the requirements of the CRUD system, and we focus on creating a user controller first.
-- [ ] The design is unnecessary, you can design whatever you like, but the function must work well, and we prefer to use MUI, AntDesign, or Tailwind to reduce your time.
-- [ ] We need a list of users, which you can get from our API. The list shows only the id, first, and last names with pagination.
-- [ ] We need a dialog popup to show the user another detailed data from a row.
-- [ ] We need a create user form and send it to our API. But, we must validate the required fields before submitting and show any error when we get it from the API.
-- [ ] We need a calendar dialog to select the user's birthday.
-- [ ] We need confirmation after submission, such as a toast or an alert message in the popup, and refresh the new data from the API.
+1. The design is unnecessary, you can design whatever you like, but the function must work well, and we prefer to use MUI, AntDesign, or Tailwind to reduce your time.
+2. We need a list of users, which you can get from our API. The list shows only the id, first, and last names with pagination.
+3. We need a dialog popup to show the user another detailed data from a row.
+4. We need a create user form and send it to our API. But, we must validate the required fields before submitting and show any error when we get it from the API.
+5. We need a calendar dialog to select the user's birthday.
+6. We need confirmation after submission, such as a toast or an alert message in the popup, and refresh the new data from the API.
 
 ## Available APIs
 We finished the backend with APIs in this project; you can install all packages before running the project and reaching APIs.
