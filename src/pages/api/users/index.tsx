@@ -20,8 +20,6 @@ export interface UserDataResponse {
 export interface UserQueryParams {
   page?: number;
   limit?: number;
-  id?: string;
-  email?: string;
 }
 
 export default async function handler(
@@ -54,7 +52,17 @@ export default async function handler(
       },
     });
   } else if (req.method === "POST") {
-    const { firstName, lastName, email, phoneNumber, gender } = req.body;
+    const {
+      avatar,
+      address,
+      suffix,
+      firstName,
+      lastName,
+      email,
+      phoneNumber,
+      gender,
+      birthday,
+    } = req.body;
     try {
       const user = await prisma.user.create({
         data: {
@@ -63,6 +71,10 @@ export default async function handler(
           email,
           phoneNumber,
           gender,
+          avatar,
+          address,
+          suffix,
+          birthday,
         },
       });
       return res.status(201).json({
