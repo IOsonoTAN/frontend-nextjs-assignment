@@ -27,8 +27,9 @@ export default async function handler(
   res: NextApiResponse<UserDataResponse>
 ) {
   if (req.method === "GET") {
-    const page = Number(req.query.page) || 1;
-    const limit = Number(req.query.limit) || 10;
+    const query: UserQueryParams = req.query;
+    const page = Number(query.page) || 1;
+    const limit = Number(query.limit) || 10;
 
     const {
       result: users,
